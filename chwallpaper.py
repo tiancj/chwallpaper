@@ -13,6 +13,7 @@ if not os.path.exists(os.path.expanduser("~/Pictures/mojave_dynamic")):
     sys.exit(0)
 
 pic_info = [
+    [0, 7200, "mojave_dynamic_16.jpeg"],
     [2, 10800, "mojave_dynamic_16.jpeg"],
     [5, 3600, "mojave_dynamic_1.jpeg"],
     [6, 3600, "mojave_dynamic_2.jpeg"],
@@ -28,7 +29,7 @@ pic_info = [
     [17, 3600, "mojave_dynamic_12.jpeg"],
     [18, 7200, "mojave_dynamic_13.jpeg"],
     [20, 10800, "mojave_dynamic_14.jpeg"],
-    [23, 10800, "mojave_dynamic_15.jpeg"],
+    [23, 3600, "mojave_dynamic_15.jpeg"],
 ]
 
 BASE_FOLDER = os.path.expanduser('~/Pictures/mojave_dynamic')
